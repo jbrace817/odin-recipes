@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawaiian Grilled Teriyaki Chicken</title>
+    <style>
+      p {
+        width: 500px;
+      }
+
+      ol.instructions {
+        list-style-type: none;
+        counter-reset: items;
+        padding-left: 0;
+        width: 500px;
+        overflow: auto;
+      }
+
+      li.instructions::before {
+        float: left;
+
+        /* margin-bottom: 1px;
+        margin-right: 10px; */
+        counter-increment: items;
+        font-weight: bold;
+        content: 'Step ' counter(items) ': ';
+      }
+      .li_text {
+        margin-left: 55px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hawaiian Grilled Teriyaki Chicken Recipe</h1>
+    <img
+      src="../images/Teriyaki-Chicken.jpg"
+      alt="Yummy grilled teriyaki chicken thighs"
+      style="width: 500px"
+    />
+    <section>
+      <h2>Easy meal for busy family</h2>
+      <p>
+        This recipe is easy and quick for a busy family. My 6 year old son loves
+        this recipe and will eat the left overs. Hopefully you family enjoys it
+        as well.
+      </p>
+    </section>
+    <section>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 1/2 pounds chicken thighs boneless, skinless</li>
+        <li>1 cup soy sauce</li>
+        <li>1 cup brown sugar packed</li>
+        <li>1 cup pinapple juice</li>
+        <li>4 cloves garlic chopped</li>
+        <li>1 Tablespoon ginger fresh, minced</li>
+      </ul>
+    </section>
+    <section style="display: grid">
+      <ol class="instructions">
+        <li class="instructions">
+          <div class="li_text">
+            Place chicken thighs in a bowl or gallon-sized Ziploc bag, set
+            aside. Combine remaining ingredients in medium-sized mixing bowl and
+            mix until sugar dissolves. Pour marinade over chicken, press air out
+            of bag, and seal tightly (or cover the bowl and make it as air-tight
+            as possible). Refrigerate overnight (or at least 4 hours). Remove
+            chicken from bag and set aside. Do NOT discard marinade.
+          </div>
+        </li>
+        <li class="instructions">
+          <div class="li_text">
+            In a medium saucepan, bring marinade to a simmer and simmer for 5-10
+            minutes.
+          </div>
+        </li>
+        <li class="instructions">
+          <div class="li_text">
+            Place chicken on grill and brush some of the hot marinade over the
+            top (do not place brush back in marinade after brushing the
+            chicken). Continue to grill chicken until done (165 degrees internal
+            temp).
+          </div>
+        </li>
+        <li class="instructions">
+          <div class="li_text">
+            Place cooked chicken in a baking dish and pour remaining hot
+            teriyaki marinade over the top. Serve immediately.
+          </div>
+        </li>
+      </ol>
+    </section>
+  </body>
+</html>
