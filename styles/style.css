@@ -5,7 +5,7 @@ html {
 main {
   max-width: 60rem;
   margin: 0 auto;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
 }
 img {
   display: block;
